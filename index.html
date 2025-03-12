@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    /> -->
+  <!-- fotns -->
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet" />
+  <!-- fotns -->
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="icon" href="img/Group.png" type="image/jpg">
+  <title>Uy Savdo</title>
+  
+</head>
+<style>.img_logo{
+    width: 70px;
+    height: 60px;
+}
+</style>
+
+
+<body>
+  <header>
+    <div class="header">
+      <div class="container">
+        <nav class="header-nav">
+
+          <a href="#"> <img src="img/Group.png" class="img_logo" alt="Logo" /> </a>
+
+          <div class="nav-icons">
+            <button class="nav-icons-buttons">
+              <a href="">
+                <img src="img/Combined%20Shape.png" alt="apple" />
+              </a>
+            </button>
+            <button class="nav-icons-buttons">
+              <a href=""> <img src="img/Google-Play.png" alt="" /> </a>
+            </button>
+            <!-- flags -->
+            <div class="language-select-wrapper">
+              <img src="img/uzflag.svg" alt="UZ Flag" id="flagIcon" class="flag-icon" />
+              <select class="language-select" id="selectLanguage" onchange="updateFlag()">
+                <option selected value="UZ" data-flag="./img/uzflag.svg">
+                  UZ
+                </option>
+
+                <option value="RU" data-flag="./img/ruflag.svg">
+                  RU
+                </option>
+
+                <option value="TUR" data-flag="./img/turflag.svg">
+                  TUR
+                </option>
+
+                <option value="EN"
+                  data-flag="./img/engflag.svg">
+                  ENG
+                </option>
+              </select>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="main-section">
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="main-item-left">
+            <h1 class="main-left-text">EKSKLUZIV PRODUKTLAR</h1>
+
+            <p data-aos="fade-right" class="main-left-info">
+              Markaziy Osiyodagi ko'chmas mulk uchun
+            </p>
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="main-playmarket">
+              <a href="https://apps.apple.com/app/id6736627028">
+                <img width="" src="img/appstore.png" alt="" />
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.uy.savdo.mobile">
+                <img width="" src="img/googleplay.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="right-imgabsalute">
+            <img class="img-rigt" src="img/mainphone_uz.svg" alt="" />
+            <div class="icons-telephone">
+              <div class="top-icons">
+                <a class="keys" href="#">
+                  <img class="icons-all" src="img/kvartira.svg" alt="apartment" />
+                </a>
+                <a class="keys" href="#">
+                  <img class="icons-all" src="img/quruqyer.svg" alt="empty" />
+                </a>
+                <a class="keys" href="#">
+                  <img class="icons-all" src="img/uchastka.svg" alt="cs" /></a>
+              </div>
+              <div class="bottom-icons">
+                <a class="keys-bottom" href="#">
+                  <img class="icons-all" src="img/noturar.svg" alt="resident" />
+                </a>
+                <a class="keys-bottom" href="#">
+                  <img class="icons-all" src="img/penthouse.svg" alt="empty" />
+                </a>
+                <a class="keys-bottom" href="#">
+                  <img class="icons-all" src="img/yangiqurilishalr.svg" alt="cs" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-bg">
+        <div class="about-us">
+          <div class="left-img-about">
+            <img data-aos="fade-up-right" class="left-img" src="img/phone.png" alt="Phone" />
+          </div>
+          <div class="about-title">
+            <h2 data-aos="flip-down" class="about-text">Biz haqimizda</h2>
+            <p data-aos="fade-up" data-aos-anchor-placement="center-center" class="about-info">
+              Biz "Uysavdo" kompaniyasida barcha jarayonlarni ehtiyotkorlik va soddalik bilan boshqaramiz. Turli
+              mahsulotlar va xizmatlar birgalikda ajoyib uy xaridi tajribasini taqdim etishga imkon yaratadi. Bu,
+              albatta, uy sotib olish va sotish jarayonlarini soddalashtirishga yordam beradigan asosiy vositadir. Biz
+              har bir tafsilotga sinchkovlik bilan yondashamiz va qulaylikni ustuvor deb bilamiz. Mahsulotlarimiz va
+              xizmatlarimiz birlashganda, mijozlarimiz uchun eng yaxshi uy xarid qilish imkoniyati paydo bo‘ladi.
+              Shubhasiz, "Uysavdo" sizga sifatli va tezkor xizmatlar ko‘rsatish uchun ideal tanlovdir.
+            </p>
+          </div>
+        </div>
+        <span class="span"></span>
+        <div class="container">
+          <div data-aos="flip-left" class="about-list">
+            <div class="card">
+              <h3 class="card-title">Oson</h3>
+              <p class="card-text">
+                Startaplar uchun chiroyli tarzda yaratilgan yuqori sifatli yechim
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Qulay</h3>
+              <p class="card-text">
+                Startaplar uchun chiroyli tarzda yaratilgan yuqori sifatli yechim
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Xavfsiz</h3>
+              <p class="card-text">
+                Startaplar uchun chiroyli tarzda yaratilgan yuqori sifatli yechim
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Tez</h3>
+              <p class="card-text">
+                Startaplar uchun chiroyli tarzda yaratilgan yuqori sifatli yechim
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="telegram-bg">
+        <div class="container">
+          <div class="telegram-wrapper">
+            <div class="telegram-left">
+              <div data-aos="fade-right" class="telegram-box">
+                <h3 class="telegram-title">
+                  Telegram bot va Telegram Kanal
+                </h3>
+                <p class="telegram-text">
+                  Mahsulotlarim uchun qiziqarli narsalarni yaratishga harakat qilamiz
+                  mijozlarni jalb qilish va bu uchun munosib sarmoyadir
+                  kelajak.
+                </p>
+              </div>
+              <ul data-aos="fade-down-right" class="telegram-list">
+                <li class="list-text">
+                  <img src="img/Icon.png" alt="" />
+                  Shablonlar biz bilan yaxshi ishlab chiqilgani juda yaxshi
+                  kompaniya
+                </li>
+                <li class="list-text">
+                  <img src="img/Icon.png" alt="" />
+                  Shablonlar biz bilan yaxshi ishlab chiqilgani juda yaxshi
+                  kompaniya
+                </li>
+                <li class="list-text">
+                  <img src="img/Icon.png" alt="" />
+                  Shablonlar biz bilan yaxshi ishlab chiqilgani juda yaxshi
+                  kompaniya
+                </li>
+                <li class="list-text">
+                  <img src="img/Icon.png" alt="" />
+                  Shablonlar biz bilan yaxshi ishlab chiqilgani juda yaxshi
+                  kompaniya
+                </li>
+              </ul>
+            </div>
+            <img data-aos="zoom-in-up" class="right-img" src="img/Screen.png" alt="screen" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-iocns">
+          <a href="https://t.me/uysavdo_bot">
+            <img src="img/image%2023.png" alt=""/>
+          </a>
+          <a href="https://www.instagram.com/uysavdo_uzbekistan/">
+            <img src="img/ins.png" alt="" />
+          </a>
+          <!-- <a href="https://youtube.com/">
+            <img src="./img/image.png" alt="" />
+          </a> -->
+          <a href="">
+            <img src="img/Facebook.png" alt="" />
+          </a>
+        </div>
+        <div class="footer-box-link">
+          <a class="footer-link" href="">Maxfiylik siyosati</a>
+          <a class="footer-link" href="">Foydalanish shartlari</a>
+        </div>
+        <p class="footer-text">2024 Barcha huquqlar himoyalangan.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

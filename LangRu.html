@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    /> -->
+  <!-- fotns -->
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet" />
+  <!-- fotns -->
+  <link rel="stylesheet" href="./main.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="icon" href="./img/uysavdo.jpg" type="image/jpg">
+  <title>Дом Торговля</title>
+</head>
+<style>.img_logo{
+    width: 70px;
+    height: 60px;
+}
+</style>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="container">
+        <nav class="header-nav">
+
+          <a href="#"> <img src="./img/Group.png" class="img_logo" alt="Logo" /> </a>
+
+          <div class="nav-icons">
+            <button class="nav-icons-buttons">
+              <a href="">
+                <img src="./img/Combined Shape.png" alt="apple" />
+              </a>
+            </button>
+            <button class="nav-icons-buttons">
+              <a href=""> <img src="./img/Google-Play.png" alt="" /> </a>
+            </button>
+
+            <div class="language-select-wrapper">
+              <img src="./img/uzflag.svg" alt="Флаг Узбекистана" id="flagIcon" class="flag-icon" />
+              <select class="language-select" id="selectLanguage" onchange="updateFlag()">
+                <option value="UZ" data-flag="./img/uzflag.svg">UZ</option>
+
+                <option selected value="RU"
+                  data-flag="./img/ruflag.svg">
+                  RU
+                </option>
+
+                <option value="TUR" data-flag="./img/turflag.svg">
+                  TUR
+                </option>
+
+                <option value="EN"
+                  data-flag="./img/engflag.svg">
+                  ENG
+                </option>
+              </select>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="main-section">
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="main-item-left">
+            <h1 class="main-left-text">ЭКСКЛЮЗИВНЫЙ ИННОВАЦИОННЫЙ ПРОДУКТ</h1>
+            <p data-aos="fade-right" class="main-left-info">
+              для недвижимости в Центральной Азии
+            </p>
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="main-playmarket">
+              <a href="https://apps.apple.com/app/id6736627028">
+                <img width="" src="./img/appstore.png" alt="" />
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.uy.savdo.mobile">
+                <img width="" src="./img/googleplay.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="right-imgabsalute">
+            <img class="img-rigt" src="./img/mainphone_ru.svg" alt="" />
+            <div class="icons-telephone">
+              <div class="top-icons">
+                <a class="keys" href="#">
+                  <img class="icons-all" src="./img/kvartira_ru.svg" alt="апартаменты" />
+                </a>
+                <a class="keys" href="#">
+                  <img class="icons-all" src="./img/quruqyer_ru.svg" alt="пусто" />
+                </a>
+                <a class="keys" href="#">
+                  <img class="icons-all" src="./img/uchastka_ru.svg" alt="дом" /></a>
+              </div>
+              <div class="bottom-icons">
+                <a class="keys-bottom" href="#">
+                  <img class="icons-all" src="./img/noturar_ru.svg" alt="жилой" />
+                </a>
+                <a class="keys-bottom" href="#">
+                  <img class="icons-all" src="./img/penthouse_ru.svg" alt="пусто" />
+                </a>
+                <a class="keys-bottom" href="#">
+                  <img class="icons-all" src="./img/yangiqurilishlar_ru.svg" alt="cs" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-bg">
+        <div class="about-us">
+          <div class="left-img-about">
+            <img data-aos="fade-up-right" class="left-img" src="./img/phone.png" alt="Телефон" />
+          </div>
+          <div class="about-title">
+            <h2 data-aos="flip-down" class="about-text">О нас</h2>
+            <p data-aos="fade-up" data-aos-anchor-placement="center-center" class="about-info">
+              В компании "Uysavdo" мы внимательно и с простотой управляем всеми процессами. Различные продукты и услуги
+              объединяются, чтобы предоставить превосходный опыт покупки жилья. Это, безусловно, основной инструмент для
+              упрощения процесса покупки и продажи недвижимости. Мы тщательно относимся к каждой детали и ставим
+              удобство на первое место. Когда наши продукты и услуги объединяются, создается идеальное пространство для
+              покупки жилья. Несомненно, "Uysavdo" — это идеальный выбор для предоставления качественных и оперативных
+              услуг.
+            </p>
+          </div>
+        </div>
+        <span class="span"></span>
+        <div class="container">
+          <div data-aos="flip-left" class="about-list">
+            <div class="card">
+              <h3 class="card-title">Просто</h3>
+              <p class="card-text">
+                Высококачественное решение, прекрасно разработанное для
+                стартапов
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Комфортно</h3>
+              <p class="card-text">
+                Высококачественное решение, прекрасно разработанное для
+                стартапов
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Безопасно</h3>
+              <p class="card-text">
+                Высококачественное решение, прекрасно разработанное для
+                стартапов
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Быстро</h3>
+              <p class="card-text">
+                Высококачественное решение, прекрасно разработанное для
+                стартапов
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="telegram-bg">
+        <div class="container">
+          <div class="telegram-wrapper">
+            <div class="telegram-left">
+              <div data-aos="fade-right" class="telegram-box">
+                <h3 class="telegram-title">
+                  Телеграм бот и Телеграм канал
+                </h3>
+                <p class="telegram-text">
+                  Мы стараемся создавать интересные вещи для моих продуктов,
+                  чтобы привлечь клиентов, и это стоящая инвестиция в будущее.
+                </p>
+              </div>
+              <ul data-aos="fade-down-right" class="telegram-list">
+                <li class="list-text">
+                  <img src="./img/Icon.png" alt="" />
+                  Прекрасно, что шаблоны хорошо спроектированы для нашей
+                  компании
+                </li>
+                <li class="list-text">
+                  <img src="./img/Icon.png" alt="" />
+                  Прекрасно, что шаблоны хорошо спроектированы для нашей
+                  компании
+                </li>
+                <li class="list-text">
+                  <img src="./img/Icon.png" alt="" />
+                  Прекрасно, что шаблоны хорошо спроектированы для нашей
+                  компании
+                </li>
+                <li class="list-text">
+                  <img src="./img/Icon.png" alt="" />
+                  Прекрасно, что шаблоны хорошо спроектированы для нашей
+                  компании
+                </li>
+              </ul>
+            </div>
+            <img data-aos="zoom-in-up" class="right-img" src="./img/Screen.png" alt="экран" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-iocns">
+          <a href="https://t.me/uysavdo_bot">
+            <img src="./img/image 23.png" alt=""/>
+          </a>
+          <a href="https://www.instagram.com/uysavdo_uzbekistan/">
+            <img src="./img/ins.png" alt="" />
+          </a>
+          <!-- <a href="https://youtube.com/">
+            <img src="./img/image.png" alt="" />
+          </a> -->
+          <a href="">
+            <img src="./img/Facebook.png" alt="" />
+          </a>
+        </div>
+        <div class="footer-box-link">
+          <a class="footer-link" href="">Политика конфиденциальности</a>
+          <a class="footer-link" href="">Условия и положения</a>
+        </div>
+        <p class="footer-text">2024 Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
